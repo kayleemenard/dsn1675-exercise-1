@@ -52,6 +52,7 @@ article {
   color: white;
   position: absolute;
   bottom: 0;
+  width: 100%;
 
   font-family: serif;
   font-style: italic;
