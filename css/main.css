@@ -27,9 +27,11 @@ body {
   padding: 0;
 
   border-radius: 15px;
+
+  background-color: white;
 }
 
-img {
+.img-stegosaurus {
   display: block;
   width: 100%;
 }
@@ -40,6 +42,15 @@ img {
 
 }
 
+.billboard figcaption {
+  float: 
+}
+
 .data {
-  
+  display: inline-block;
+}
+
+.data h2 {
+  font-size: 1rem;
+  font-style: uppercase;
 }
