@@ -14,6 +14,8 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+
+  background-color: #a8a8a8;
 }
 
 *, *:before, *:after {
@@ -24,34 +26,50 @@ body {
   margin: 0;
   padding: 0;
 
-  border-radius: 15px;
+
 }
 
-.img-stegosaurus {
+article {
+  background-color: white;
+  overflow: hidden;
+  border-radius: 0 0 15px 15px;
+}
+
+.img-graphic {
   display: block;
   width: 100%;
+  border-radius: 15px 15px 0 0;
 }
 
-.billboard {
+.graphic {
   margin: 0;
   padding: 0;
-}
-
-.billboard figure {
   position: relative;
 }
 
-.billboard figcaption {
+.graphic figcaption {
+  background-color: rgba(0,0,0,0.3);
+  color: white;
   position: absolute;
+  bottom: 0;
+
+  font-family: serif;
   font-style: italic;
 }
 
 .data {
-  display: inline-block;
+  padding: 1rem;
+  float: left;
+  width: 33.333%;
+  border-right: 1px solid #a8a8a8;
 }
 
 .data h2 {
   font-size: 1rem;
   text-transform: uppercase;
   color: #a8a8a8;
+}
+
+.data:last-child {
+  border: 0;
 }
